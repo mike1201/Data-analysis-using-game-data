@@ -1,4 +1,3 @@
-# 비즈니스 활용 사례로 배우는 데이터분석 : R // 3장
 
 
 setwd("C://Users//MinKyu//Desktop//Boaz//R스터디//data")
@@ -84,11 +83,10 @@ ggplot(mau.payment[mau.payment$payment > 0 & mau.payment$user.type == "install",
 
 
 
+# -----------------------------------------------------------------------------------
 
 
 
-
-# 비즈니스 활용 사례로 배우는 데이터분석 : R // 4장
 
 setwd("C://Users//MinKyu//Desktop//Boaz//R스터디//data")
 dau <- read.csv("section4-dau.csv", header = T, stringsAsFactors = F)
@@ -163,7 +161,7 @@ ggplot(dau.user.info.device.summary, aes(x=log_date, y=dau, col=device_type, lty
 
 
 
-# 비즈니스 활용 사례로 배우는 데이터분석 : R // 5장
+# ---------------------------------------------------------------
 
 # 데이터 읽어 들이기
 setwd("C://Users//MinKyu//Desktop//Boaz//R스터디//data")
@@ -248,7 +246,7 @@ ggplot(ab.test.imp.summary,aes(x=log_date,y=cvr, col=test_case,lty=test_case, sh
 
 
 
-# 비즈니스 활용 사례로 배우는 데이터분석 : R // 6장
+# ---------------------------------------------------------------
 
 # CSV 파일 읽어들이기
 setwd("C://Users//MinKyu//Desktop//Boaz//R스터디//data")
@@ -287,8 +285,7 @@ summary(fit)
 
 
 
-
-# 비즈니스 활용 사례로 배우는 데이터분석 : R // 7장
+# ---------------------------------------------------------------
 
 setwd("C://Users//MinKyu//Desktop//Boaz//R스터디//data")
 
